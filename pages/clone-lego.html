@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+    <link rel="stylesheet" href="../assets/styles/projets.css">
+    <script src="https://kit.fontawesome.com/8c9254d0e3.js" crossorigin="anonymous"></script>
+    <script src="../assets/scripts/main.js" defer></script>
+    <title>Portfolio - Catherine Ducharme</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio de Catherine Ducharme - projet clone site Web Lego</h1>
+        <a href="../index.html#intro"><img src="../assets/img/octobee_simple.svg" alt="Hexagone noir au contour coulant contenant trois tentacules violettes" id="octobee-simple" aria-label="Accueil"></a>
+        <nav>
+            <button type="button" id="burger-nav-btn-ouvrir">
+                <i class="fa-solid fa-bars burger-icon" aria-hidden="true"></i>
+                <span class="menu-txt">.menu</span>
+            </button>
+            <div id="burger-nav">
+                <i class="fa-regular fa-circle-xmark" aria-label="Fermer le menu" id="burger-nav-btn-fermer"></i>
+                <ul>
+                    <li><a href="../index.html#aPropos" class="burger-nav-link">.aPropos</a></li>
+                    <li><a href="../index.html#competences" class="burger-nav-link">.competences</a></li>
+                    <li><a href="./realisations.html" class="burger-nav-link">.realisations</a></li>
+                    <li><a href="../index.html#contact" class="burger-nav-link">.meContacter</a></li>
+                </ul>
+            </div>
+            <div id="full-nav">
+                <ul>
+                    <li><a href="../index.html#aPropos">À propos</a></li>
+                    <li><a href="../index.html#competences">Compétences</a></li>
+                    <li><a href="./realisations.html">Réalisations</a></li>
+                    <li><a href="../index.html#contact">Me contacter</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section id="intro">
+                <div>
+                    <p class="intro-first"><time datetime="2023">2023</time></p>
+                    <p class="intro-second">projet scolaire</p>
+                    <div>
+                        <h2 class="intro-smaller-title">.cloneLego</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mandat">
+                <div>
+                    <div class="section-title">
+                        <h2>.mandat<code>{</code></h2>
+                    </div>
+                    <p>
+                        Le mandat était de reproduire la page d'accueil du <a href="https://www.lego.com" target="_blank">site Web de Lego</a> (au moment de réaliser le travail) en modifiant le contenu à notre guise. La page devait être statique tout en respectant la structure demandée (les carrousels de produits étant donc présents, mais non fonctionnels).
+                    </p>
+                    <p>
+                        Une maquette a préalablement été réalisée dans Figma afin de nous assurer que la maquette du site créée à titre de base pour notre code était bien fidèle au site Web de Lego.
+                    </p>
+                </div>
+            </section>
+
+            <section id="outils">
+                <div>
+                    <div class="section-title">
+                        <h2>.langagesEtOutils<code>{</code></h2>
+                    </div>
+                    <div class="competences-icones">
+                        <div><i class="fa-brands fa-html5" aria-hidden="true"></i><p>HTML5</p></div>
+                        <div><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><p>CSS3</p></div>
+                        <div><i class="fa-brands fa-js" aria-hidden="true"></i><p>JavaScript</p></div>
+                        <div><i class="fa-brands fa-sass" aria-hidden="true"></i><p>SASS</p></div>
+                        <div class="competences-icons-design">
+                            <div>
+                                <img src="../assets/img/icons/figma.png" alt="Logo du logiciel Figma">
+                            </div>
+                            <p>Figma</p>
+                        </div>
+                        <div class="competences-icons-design">
+                            <div>
+                                <img src="../assets/img/icons/adobe-photoshop.png" alt="Logo du logiciel Photoshop">
+                            </div>
+                            <p>Photoshop</p>
+                        </div>
+                        <div class="competences-icons-design">
+                            <div>
+                                <img src="../assets/img/icons/adobe-illustrator.png" alt="Logo du logiciel Illustrator">
+                            </div>
+                            <p>Illustrator</p>
+                        </div>                       
+                    </div>
+                </div>
+            </section>
+
+            <section id="rendu">
+                <div>
+                    <div class="section-title">
+                        <h2>.renduFinal<code>{</code></h2>
+                    </div>
+                    <div class="rendu-img" aria-label="Landing page défilable du projet Clone Lego" tabindex="0">
+                        <img src="../assets/img/projects/lego_landing.png" alt="Landing page du projet Clone Lego" />
+                    </div>
+                    <div class="projet-btn-container">
+                        <a href="https://github.com/imonlyashes/lego-website-clone" target="_blank" class="projet-btn">Voir le projet sur GitHub</a>
+                    </div>
+                </div>
+
+                <footer id="large-window-footer">
+                    <div>
+                        <p>© Catherine Ducharme. <time datetime="2023">2023</time>. Icônes des compétences en design : <a href="https://www.flaticon.com/" target="_blank" class="footer-credit">Flaticon</a>.</p>
+                        <div>
+                            <a href="https://github.com/imonlyashes" target="_blank" aria-label="Lien vers GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                            <a href="https://www.behance.net/catheriducharm2" target="_blank" aria-label="Lien vers Behance"><i class="fa-brands fa-behance" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/ducharmecatherine/" target="_blank" aria-label="Lien vers LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </article>
+    </main>
+    <footer id="small-window-footer">
+        <div>
+            <p>© Catherine Ducharme. <time datetime="2023">2023</time>. Icônes des compétences en design : <a href="https://www.flaticon.com/" target="_blank" class="footer-credit">Flaticon</a>.</p>
+            <div>
+                <a href="https://github.com/imonlyashes" target="_blank" aria-label="Lien vers GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.behance.net/catheriducharm2" target="_blank" aria-label="Lien vers Behance"><i class="fa-brands fa-behance" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/ducharmecatherine/" target="_blank" aria-label="Lien vers LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

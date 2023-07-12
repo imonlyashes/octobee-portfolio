@@ -1,0 +1,308 @@
+.intro-smaller-title {
+    font-size: 4.5em;
+    font-weight: var(--extra-bold-font);
+}
+
+.intro-smaller-title::before {
+    content:'';
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 410px;
+    top: 50px;
+    left: 10px;
+    z-index: -1;
+    background-color: var(--primary-yellow);
+}
+
+#mandat h2::before {
+    width: 200px;
+    height: 25px;
+}
+
+#mandat p:first-of-type {
+    margin-bottom: 30px;
+}
+
+#mandat a {
+    color: var(--primary-purple);
+    transition: color .3s ease-in-out;
+}
+
+#mandat a:hover {
+    color: var(--primary-yellow);
+    transition: color .3s ease-in-out;
+}
+
+#mandat a:focus {
+    color: var(--primary-yellow);
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+    outline: 2px solid var(--primary-purple);
+}
+
+#outils h2::before {
+    width: 400px;
+    height: 25px;
+}
+
+#outils .title-lang h2::before {
+    width: 380px;
+    height: 25px;
+}
+
+#outils .title-outils h2::before {
+    width: 305px;
+    height: 25px;
+}
+
+#rendu {
+    position: relative;
+}
+
+#rendu h2::before {
+    width: 265px;
+    height: 25px;
+}
+
+#rendu img {
+    width: 100%;
+}
+
+.rendu-img {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 500px;
+    margin-bottom: 20px;
+}
+
+.projet-btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* ROCHE PAPIER CISEAUX */
+.intro-rpc-title {
+    font-size: 2.5em;
+    font-weight: var(--extra-bold-font);
+}
+
+.intro-rpc-title::before {
+    content:'';
+    position: absolute;
+    display: block;
+    height: 27px;
+    width: 435px;
+    top: 26px;
+    left: 5px;
+    z-index: -1;
+    background-color: var(--primary-yellow);
+}
+
+/* ANIMATE */
+.intro-animate-title {
+    font-size: 4.1em;
+    font-weight: var(--extra-bold-font);
+}
+
+.intro-animate-title::before {
+    content:'';
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 425px;
+    top: 50px;
+    left: 10px;
+    z-index: -1;
+    background-color: var(--primary-yellow);
+}
+
+/* CRUNCHYROLL */
+.intro-crunchy-title {
+    font-size: 4em;
+    font-weight: var(--extra-bold-font);
+}
+
+.intro-crunchy-title::before {
+    content:'';
+    position: absolute;
+    display: block;
+    height: 35px;
+    width: 405px;
+    top: 42px;
+    left: 8px;
+    z-index: -1;
+    background-color: var(--primary-yellow);
+}
+
+/* INCUBATEUR A2 */
+.intro-a2-title {
+    font-size: 3.4em;
+    font-weight: var(--extra-bold-font);
+}
+
+.intro-a2-title::before {
+    content:'';
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 405px;
+    top: 35px;
+    left: 8px;
+    z-index: -1;
+    background-color: var(--primary-yellow);
+}
+
+
+
+@media screen and (min-width: 768px){
+    .intro-smaller-title {
+        font-size: 8em;
+    }
+
+    .intro-smaller-title::before {
+        height: 70px;
+        width: 750px;
+        top: 80px;
+        left: 20px;
+    }
+    
+    #mandat h2::before {
+        width: 240px;
+        height: 25px;
+    }
+
+    #outils h2::before {
+        width: 480px;
+        height: 25px;
+    }
+
+    #outils .title-lang h2::before {
+        width: 460px;
+        height: 25px;
+    }
+
+    #outils .title-outils h2::before {
+        width: 370px;
+        height: 25px;
+    }
+
+    #rendu h2::before {
+        width: 320px;
+        height: 25px;
+    }
+    
+    /* ROCHE PAPIER CISEAUX */
+    .intro-rpc-title {
+        font-size: 4.5em;
+    }
+
+    .intro-rpc-title::before {
+        height: 47px;
+        width: 790px;
+        top: 47px;
+        left: 10px;
+    }
+
+    /* ANIMATE */
+    .intro-animate-title {
+        font-size: 7.5em;
+    }
+
+    .intro-animate-title::before {
+        height: 70px;
+        width: 780px;
+        top: 80px;
+        left: 20px;
+    }
+
+    /* CRUNCHYROLL */
+    .intro-crunchy-title {
+        font-size: 7.5em;
+    }
+
+    .intro-crunchy-title::before {
+        height: 65px;
+        width: 760px;
+        top: 75px;
+        left: 15px;
+    }
+
+    /* INCUBATEUR A2 */
+    .intro-a2-title {
+        font-size: 6em;
+    }
+
+    .intro-a2-title::before {
+        height: 50px;
+        width: 720px;
+        top: 62px;
+        left: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .intro-smaller-title {
+        font-size: 10em;
+    }
+
+    .intro-smaller-title::before {
+        height: 83px;
+        width: 935px;
+        top: 100px;
+        left: 20px;
+    }
+    
+    .rendu-img {
+        max-width: 1500px;
+    }
+
+    /* ROCHE PAPIER CISEAUX */
+    .intro-rpc-title {
+        font-size: 5.8em;
+    }
+
+    .intro-rpc-title::before {
+        height: 60px;
+        width: 1010px;
+        top: 60px;
+        left: 15px;
+    }
+
+    /* ANIMATE */
+    .intro-animate-title {
+        font-size: 10em;
+    }
+
+    .intro-animate-title::before {
+        height: 83px;
+        width: 1050px;
+        top: 100px;
+        left: 20px;
+    }
+
+    /* CRUNCHYROLL */
+    .intro-crunchy-title {
+        font-size: 10em;
+    }
+
+    .intro-crunchy-title::before {
+        height: 83px;
+        width: 1015px;
+        top: 100px;
+        left: 20px;
+    }
+
+    /* INCUBATEUR A2 */
+    .intro-a2-title {
+        font-size: 8.5em;
+    }
+
+    .intro-a2-title::before {
+        height: 70px;
+        width: 1015px;
+        top: 85px;
+        left: 20px;
+    }
+}

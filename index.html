@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <script src="https://kit.fontawesome.com/8c9254d0e3.js" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/main.js" defer></script>
+    <title>Portfolio - Catherine Ducharme</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio de Catherine Ducharme</h1>
+        <a href="#intro" aria-label="Accueil"><img src="./assets/img/octobee_simple.svg" alt="Hexagone au contour coulant contenant trois tentacules" id="octobee-simple" aria-hidden="true"></a>
+        <nav>
+            <button type="button" id="burger-nav-btn-ouvrir">
+                <i class="fa-solid fa-bars burger-icon" aria-hidden="true"></i>
+                <span class="menu-txt">.menu</span>
+            </button>
+            <div id="burger-nav">
+                <i class="fa-regular fa-circle-xmark" aria-label="Fermer le menu" id="burger-nav-btn-fermer"></i>
+                <ul>
+                    <li><a href="#aPropos" class="burger-nav-link">.aPropos</a></li>
+                    <li><a href="#competences" class="burger-nav-link">.competences</a></li>
+                    <li><a href="#realisations" class="burger-nav-link">.realisations</a></li>
+                    <li><a href="#contact" class="burger-nav-link">.meContacter</a></li>
+                </ul>
+            </div>
+            <div id="full-nav">
+                <ul>
+                    <li><a href="#aPropos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#contact">Me contacter</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section id="intro">
+                <div>
+                    <h2 class="intro-first">bienvenue</h2>
+                    <p class="intro-second">je fais du développement</p>
+                    <div>
+                        <p class="intro-title">.frontEnd</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="aPropos">
+                <div>
+                    <img src="./assets/img/octobee_logo.svg" alt="Hexagone au contour coulant contenant un visage avec des lunettes et des cheveux formés de tentacules">
+
+                    <div class="aPropos-content">
+                        <div class="section-title">
+                            <h2>.aPropos<code>{</code></h2>
+                        </div>
+                        
+                        <p class="aPropos-cafe-title">Une lecture à la hauteur de votre consommation de café</p>
+                        <div class="menu-lecture">
+                            <p class="aPropos-cafe">Besoin de café</p>
+                                <i class="fa-regular fa-circle" id="small-description-btn"></i>
+                                <i class="fa-solid fa-circle" id="medium-description-btn"></i>
+                                <i class="fa-regular fa-circle" id="large-description-btn"></i>
+                            <p class="aPropos-cafe">Bu trop de café</p>
+                        </div>
+                        <p class="description" id="small-description">
+                            Laissez-moi me présenter pendant que vous prenez votre gorgée. Je suis Catherine, adepte de programmation, de design, de musique, de jeux vidéos, mais aussi de café.
+                        </p>
+                        <p class="description" id="medium-description">
+                                Bonjour! Je suis Catherine. Petite abeille travaillante et adepte du multitâche, je nage depuis les dix dernières années dans le monde du design. Terminant une formation en Production en médias interactifs, j’ajoute désormais la programmation à mon arc pour voguer vers de nouvelles aventures dans le merveilleux monde du développement Front end.
+                        </p>
+                        <p class="description" id="large-description">
+                            Bienvenue sur mon portfolio! Je suis Catherine, mais on me retrouve aussi sur le Web sous les pseudonymes Imonlyashes et Octobee. Passionnée et curieuse de nature, j’aspire toujours investir mon 110&nbsp;% dans tout ce qui me permettra de m’épanouir davantage personnellement et professionnellement. Infographiste depuis 10&nbsp;ans, j’ai pu ajouter une nouvelle corde à mon arc grâce à ma récente formation en Production en médias interactifs qui m’a permis de combiner mon expérience passée à de nouvelles connaissances pour rendre le design plus vivant avec la programmation.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="competences">
+                <div>
+                    <div class="section-title">
+                        <h2>.competences<code>{</code></h2>
+                    </div>
+                    <div>
+                        <h3>Programmation</h3>
+                        <div class="competences-icones">
+                            <div><i class="fa-brands fa-html5" aria-hidden="true"></i><p>HTML5</p></div>
+                            <div><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><p>CSS3</p></div>
+                            <div><i class="fa-brands fa-js" aria-hidden="true"></i><p>JavaScript</p></div>
+                            <div><i class="fa-brands fa-sass" aria-hidden="true"></i><p>SASS</p></div>
+                            <div><i class="fa-brands fa-php" aria-hidden="true"></i><p>PHP</p></div>
+                            <div><i class="fa-brands fa-bootstrap" aria-hidden="true"></i><p>Bootstrap</p></div>
+                            <div><i class="fa-brands fa-react" aria-hidden="true"></i><p>React</p></div>
+                            <div><i class="fa-brands fa-vuejs" aria-hidden="true"></i><p>Vue.js</p></div>
+                            <div><i class="fa-brands fa-wordpress" aria-hidden="true"></i><p>Wordpress</p></div>
+                        </div>
+                        <h3>Design</h3>
+                        <div class="competences-icones">
+                            <div class="competences-icons-design">
+                                <div>
+                                    <img src="./assets/img/icons/figma.png" alt="Logo du logiciel Figma">
+                                </div>
+                                <p>Figma</p>
+                            </div>
+                            <div class="competences-icons-design">
+                                <div>
+                                    <img src="./assets/img/icons/adobe-photoshop.png" alt="Logo du logiciel Photoshop">
+                                </div>
+                                <p>Photoshop</p>
+                            </div>
+                            <div class="competences-icons-design">
+                                <div>
+                                    <img src="./assets/img/icons/adobe-illustrator.png" alt="Logo du logiciel Illustrator">
+                                </div>
+                                <p>Illustrator</p>
+                            </div>
+                            <div class="competences-icons-design">
+                                <div>
+                                    <img src="./assets/img/icons/adobe-indesign.png" alt="Logo du logiciel InDesign">
+                                </div>
+                                <p>InDesign</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="realisations">
+                <div>
+                    <div class="section-title">
+                        <h2>.realisations<code>{</code></h2>
+                    </div>
+                    <div class="realisation-vignette">
+                        <div class="realisation-projet">
+                            <div class="realisation-projet-infos">
+                                <img src="./assets/img/projects/clone_lego_website_icon.svg" alt="Hexagone noir coulant avec un block Lego blanc à l'intérieur">
+                                <h3>Clone du site Web de Lego</h3>
+                                <p>HTML / CSS / JavaScript / SASS</p>
+                            </div>
+                            <div class="realisation-projet-btn">
+                                <a href="./pages/clone-lego.html" class="projet-btn">Découvrir le projet</a>
+                            </div>
+                        </div>
+                        <div class="realisation-projet">
+                            <div class="realisation-projet-infos">
+                                <img src="./assets/img/projects/oop_meteo_app_icon.svg" alt="Hexagone noir coulant avec un soleil blanc à l'intérieur">
+                                <h3>Application météo en POO</h3>
+                                <p>HTML / CSS / JavaScript</p>
+                            </div>
+                            <div class="realisation-projet-btn">
+                                <a href="./pages/poo-app-meteo.html" class="projet-btn">Découvrir le projet</a>
+                            </div>
+                        </div>
+                        <div class="realisation-projet">
+                            <div class="realisation-projet-infos">
+                                <img src="./assets/img/projects/roche_papier_ciseaux_icon.svg" alt="Hexagone noir coulant avec une roche, des ciseaux et une feuille blanche à l'intérieur">
+                                <h3>Roche papier ciseaux</h3>
+                                <p>HTML / CSS / JavaScript / Vue.js</p>
+                            </div>
+                            <div class="realisation-projet-btn">
+                                <a href="./pages/roche-papier-ciseaux.html" class="projet-btn">Découvrir le projet</a>
+                            </div>
+                        </div>
+                        <div class="realisation-projet">
+                            <div class="realisation-projet-infos">
+                                <img src="./assets/img/projects/crunchyroll_refonte_icon.svg" alt="Hexagone noir coulant avec un symbole play à l'intérieur">
+                                <h3>Refonte de l'application Crunchyroll</h3>
+                                <p>Figma / Illustrator / Photoshop</p>
+                            </div>
+                            <div class="realisation-projet-btn">
+                                <a href="./pages/refonte-crunchyroll.html" class="projet-btn">Découvrir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="voir-plus">
+                        <a href="./pages/realisations.html">Voir +</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div>
+                    <div class="section-title">
+                        <h2>.meContacter<code>{</code></h2>
+                    </div>
+
+                    <p class="contact-infos">Que ce soit pour discuter avec une bonne tasse de café ou parler des projets qui vous font vibrer, n’hésitez pas à me contacter par courriel au <a href="mailto:cat.ducharme@hotmail.ca">cat.ducharme@hotmail.ca</a> ou via <a href="https://www.linkedin.com/in/ducharmecatherine/" target="_blank">LinkedIn</a>.</p>
+                </div>
+
+                <footer id="large-window-footer">
+                    <div>
+                        <p>© Catherine Ducharme. <time datetime="2023">2023</time>. Icônes des compétences en design : <a href="https://www.flaticon.com/" target="_blank" class="footer-credit">Flaticon</a>.</p>
+                        <div>
+                            <a href="https://github.com/imonlyashes" target="_blank" aria-label="Lien vers GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                            <a href="https://www.behance.net/catheriducharm2" target="_blank" aria-label="Lien vers Behance"><i class="fa-brands fa-behance" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/ducharmecatherine/" target="_blank" aria-label="Lien vers LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </article>
+    </main>
+    <footer id="small-window-footer">
+        <div>
+            <p>© Catherine Ducharme. <time datetime="2023">2023</time>. Icônes des compétences en design : <a href="https://www.flaticon.com/" target="_blank" class="footer-credit">Flaticon</a>.</p>
+            <div>
+            <a href="https://github.com/imonlyashes" target="_blank" aria-label="Lien vers GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.behance.net/catheriducharm2" target="_blank" aria-label="Lien vers Behance"><i class="fa-brands fa-behance" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/ducharmecatherine/" target="_blank" aria-label="Lien vers LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

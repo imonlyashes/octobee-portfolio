@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+    <link rel="stylesheet" href="../assets/styles/projets.css">
+    <script src="https://kit.fontawesome.com/8c9254d0e3.js" crossorigin="anonymous"></script>
+    <script src="../assets/scripts/main.js" defer></script>
+    <title>Portfolio - Catherine Ducharme</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio de Catherine Ducharme - projet exploration animate.css</h1>
+        <a href="../index.html#intro"><img src="../assets/img/octobee_simple.svg" alt="Hexagone noir au contour coulant contenant trois tentacules violettes" id="octobee-simple" aria-label="Accueil"></a>
+        <nav>
+            <button type="button" id="burger-nav-btn-ouvrir">
+                <i class="fa-solid fa-bars burger-icon" aria-hidden="true"></i>
+                <span class="menu-txt">.menu</span>
+            </button>
+            <div id="burger-nav">
+                <i class="fa-regular fa-circle-xmark" aria-label="Fermer le menu" id="burger-nav-btn-fermer"></i>
+                <ul>
+                    <li><a href="../index.html#aPropos" class="burger-nav-link">.aPropos</a></li>
+                    <li><a href="../index.html#competences" class="burger-nav-link">.competences</a></li>
+                    <li><a href="./realisations.html" class="burger-nav-link">.realisations</a></li>
+                    <li><a href="../index.html#contact" class="burger-nav-link">.meContacter</a></li>
+                </ul>
+            </div>
+            <div id="full-nav">
+                <ul>
+                    <li><a href="../index.html#aPropos">À propos</a></li>
+                    <li><a href="../index.html#competences">Compétences</a></li>
+                    <li><a href="./realisations.html">Réalisations</a></li>
+                    <li><a href="../index.html#contact">Me contacter</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section id="intro">
+                <div>
+                    <p class="intro-first"><time datetime="2023">2023</time></p>
+                    <p class="intro-second">projet scolaire</p>
+                    <div>
+                        <h2 class="intro-animate-title">.animateCss</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mandat">
+                <div>
+                    <div class="section-title">
+                        <h2>.mandat<code>{</code></h2>
+                    </div>
+                    <p>
+                        Le mandant était de réaliser un one pager comportant des animations générées par la librairie d'animation <a href="https://animate.style/" target="_blank">animate.css</a>. Ce dernier devait également contenir un graphique de données généré en <abbr title="Scalable Vector Graphics">SVG</abbr> à partir de <a href="https://www.rgraph.net/" target="_blank">RGraph</a> et un élément intégré avec la balise canvas.
+                    </p>
+
+                    <p>
+                        Le sujet était au choix et, étant une grande adpete de jeux vidéos, mon choix s'est arrêté sur les <abbr title="Role Playing Game">RPG</abbr> avec le plus de joueurs actifs en <time datetime="2022">2022</time>.
+                    </p>
+                </div>
+            </section>
+
+            <section id="outils">
+                <div>
+                    <div class="section-title title-lang">
+                        <h2>.langagesUtilises<code>{</code></h2>
+                    </div>
+                    <div class="competences-icones">
+                        <div><i class="fa-brands fa-html5" aria-hidden="true"></i><p>HTML5</p></div>
+                        <div><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><p>CSS3</p></div>
+                        <div><i class="fa-brands fa-js" aria-hidden="true"></i><p>JavaScript</p></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="rendu">
+                <div>
+                    <div class="section-title">
+                        <h2>.renduFinal<code>{</code></h2>
+                    </div>
+                    <div class="rendu-img" aria-label="Landing page défilable du projet Exploration animate.css" tabindex="0">
+                        <img src="../assets/img/projects/animate_landing.png" alt="Landing page du projet Exploration animate.css" />
+                    </div>
+                    <div class="projet-btn-container">
+                        <a href="https://github.com/imonlyashes/exploration-animate-css" target="_blank" class="projet-btn">Voir le projet sur GitHub</a>
+                    </div>
+                </div>
+
+                <footer id="large-window-footer">
+                    <div>
+                        <p>© Catherine Ducharme. <time datetime="2023">2023</time>. Icônes des compétences en design : <a href="https://www.flaticon.com/" target="_blank" class="footer-credit">Flaticon</a>.</p>
+                        <div>
+                            <a href="https://github.com/imonlyashes" target="_blank" aria-label="Lien vers GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                            <a href="https://www.behance.net/catheriducharm2" target="_blank" aria-label="Lien vers Behance"><i class="fa-brands fa-behance" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/ducharmecatherine/" target="_blank" aria-label="Lien vers LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </article>
+    </main>
+    <footer id="small-window-footer">
+        <div>
+            <p>© Catherine Ducharme. <time datetime="2023">2023</time>. Icônes des compétences en design : <a href="https://www.flaticon.com/" target="_blank" class="footer-credit">Flaticon</a>.</p>
+            <div>
+                <a href="https://github.com/imonlyashes" target="_blank" aria-label="Lien vers GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.behance.net/catheriducharm2" target="_blank" aria-label="Lien vers Behance"><i class="fa-brands fa-behance" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/ducharmecatherine/" target="_blank" aria-label="Lien vers LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
