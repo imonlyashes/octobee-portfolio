@@ -292,7 +292,7 @@ h3 {
 
 /* INTRO */
 .intro-title {
-    font-size: 4em;
+    font-size: 5em;
     font-weight: var(--extra-bold-font);
 }
 
@@ -301,9 +301,9 @@ h3 {
     position: absolute;
     display: block;
     height: 40px;
-    width: 320px;
-    top: 40px;
-    left: 8px;
+    width: 405px;
+    top: 50px;
+    left: 10px;
     z-index: -1;
     background-color: var(--primary-yellow);
 }
@@ -641,7 +641,7 @@ h3 {
 
 footer p {
     font-size: 0.75em;
-    width: 55vw;
+    width: 60vw;
 }
 
 footer p a {
